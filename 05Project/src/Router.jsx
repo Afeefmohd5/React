@@ -9,14 +9,17 @@ import ContactForm from "./components/Contact";
 const AppRouter = () => {
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/internship" element={<Internship />} />
-        <Route path="/contact" element={<ContactForm />} />
-      </Routes>
+      <div className="md:flex md:gap-3 md:p-14 h-full  items-start bg-slate-800 justify-between ">
+
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/internship" element={<Internship />} />
+          <Route path="/contact" element={<ContactForm />} />
+        </Routes>
+      </div>
     </>
   );
 };

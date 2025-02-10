@@ -15,16 +15,16 @@ const Router = () => {
             <BrowserRouter>
                 <Nav />
                 <Headerpage />
-                <Info />
-                <Cources />
-                <Contact />
-                <Offer />
+                {/* <Info /> */}
+                {/* <Cources /> */}
+                {/* <Contact /> */}
+                {/* <Offer /> */}
                 <Routes>
                     {/* <Route path="/" element={<Headerpage />} /> */}
-                    {/* <Route path="/info" element={<Info />} /> */}
-                    {/* <Route path="/Cources" element={<Cources />} /> */}
-                    {/* <Route path="/offer" element={<Offer />} /> */}
-                    {/* <Route path="/contact" element={<Contact />} /> */}
+                    <Route path="/info" element={<Info />} />
+                    <Route path="/Cources" element={<Cources />} />
+                    <Route path="/offer" element={<Offer />} />
+                    <Route path="/contact" element={<Contact />} />
                 </Routes>
 
                 <Rating />

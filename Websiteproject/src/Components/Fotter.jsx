@@ -2,7 +2,7 @@ import React from 'react'
 
 function Fotter() {
   return (
-    <><div className='flex flex-col bg-gray-800 gap-8'>
+    <><div className='flex flex-col bg-gray-800 my-14 gap-8'>
       <div className='flex  items-center justify-evenly  p-10 text-white'>
         <div className='flex flex-col gap-6'>
           <h1>| Quick Access</h1>

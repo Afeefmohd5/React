@@ -15,7 +15,7 @@ const ColorChangeButton = () => {
   };
 
   return (
-    <div className="body h-screen w-full flex justify-end items-start p-5">
+    <div className="body h-14 w-full flex justify-end items-start p-5">
       <button className="border-0 px-5 py-1 shadow-xl rounded-lg bg-black text-white" onClick={handleButtonClick}>
         toggle
       </button>
